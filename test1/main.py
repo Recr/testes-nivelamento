@@ -33,14 +33,4 @@ def download_pdfs(links):
 
 pdf_links = fetch_files_urls("https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos")
 download_pdfs(pdf_links)
-shutil.make_archive('./test1/zip/my_folder_archive', 'zip', './test1/pdf-files')
-
-
-
-
-
-
-
-
-
-
+shutil.make_archive('./test1/zip/files', 'zip', './test1/pdf-files')
