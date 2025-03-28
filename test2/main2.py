@@ -39,4 +39,4 @@ with open('./test2/csv/output.csv', 'w', newline='', encoding="utf-8") as csvfil
       for row in table.values.tolist():
         write_table_row(row)
 
-shutil.make_archive('./test2/zip/data', 'zip', './test2/csv')
+shutil.make_archive('./test2/zip/Teste_eliel_silva', 'zip', './test2/csv')
