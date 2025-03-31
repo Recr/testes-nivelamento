@@ -16,6 +16,7 @@ Para testar, basta executar o arquivo `main.py` na pasta `test1` em sua IDE de p
 ### Teste 2
 Para testar, basta executar o arquivo `main2.py` na pasta `test2` em sua IDE de preferência.
 Também é necessário instalar as dependencias importadas e ter o JDK instalado (utilizei a versão 17) para a bibliteca tabula.
+Por ultimo, extraia os arquivos `csvs.zip` e `csvs1.zip`.
 
 #### Funcionamento
 - É utilizado a biblioteca tabula para adquirir os dados do PDF.
